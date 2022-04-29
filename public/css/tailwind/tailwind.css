@@ -810,11 +810,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: transparent;
 }
 
-.bg-body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-coolGray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(42 51 66 / var(--tw-bg-opacity));
@@ -1094,6 +1089,260 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 200ms;
 }
 
+h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+  font-display: swap;
+}
+
+h1 {
+  font-display: swap;
+}
+
+h2 {
+  font-display: swap;
+}
+
+h3 {
+  font-display: swap;
+}
+
+h4 {
+  font-display: swap;
+}
+
+h5 {
+  font-display: swap;
+}
+
+h6 {
+  font-display: swap;
+}
+
+.alternat-header-top {
+  background-color: #0e0932;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.creative_header_address_text>h3 {
+  font-display: swap;
+}
+
+.creative_header_address_text>p,
+    .creative_header_address_text>p>a,
+    .top_crmenu_l li a,
+    .cr_top_addess p span,
+    .cr_top_addess p a {
+  font-display: swap;
+}
+
+.alternat_menu>ul>li>a,
+    .heading_style_2 .alternat_menu>ul>li>a,
+    .heading_style_3 .alternat_menu>ul>li>a,
+    .heading_style_4 .alternat_menu>ul>li>a,
+    .witr_search_wh .em-header-quearys .em-quearys-menu i,
+    .right_sideber_menu i,
+    .main_menu_header_icon i,
+    .main_menu_header_address_text h3,
+    .main_menu_header_address_text h4 a,
+    .heading_style_5 .alternat_menu>ul>li>a {
+  font-display: swap;
+}
+
+.alternat_nav_area.prefix,
+    .hbg2 {
+  background-color: #0e1a42;
+}
+
+.alternat_menu ul .sub-menu li a {
+  font-display: swap;
+}
+
+.alternat_nav_area {
+  border-bottom: 1px solid #1a2f44;
+}
+
+.alternat_nav_area,
+    .trp_nav_area,
+    .transprent-menu .alternat_nav_area {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.breadcumb-area,
+    .breadcumb-blog-area {
+  background-position: center center;
+  background-image: url('../assets/images/beacontoken.jpg');
+  background-size: cover;
+}
+
+.breadcumb-area::before,
+    .breadcumb-blog-area::before {
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.breadcumb-inner ul,
+    .breadcumb-inner ul span a,
+    .breadcumb-inner li,
+    .breadcumb-inner li a {
+  color: #ffffff;
+  font-display: swap;
+}
+
+.footer-social-icon a i:hover,
+    .footer-social-icon.htop-menu-s a i:hover,
+    .em_slider_social a:hover,
+    .top_crmenu_i_list li a i:hover,
+    .top-right-menu ul.social-icons li a i:hover {
+  color: #8224e3;
+}
+
+.witrfm_area {
+  background-position: center center;
+  background-image: url('https://demo.themexbd.com/rtl/alternat/wp-content/uploads/2021/06/slider-bg.jpg');
+  background-size: cover;
+}
+
+.witrfm_area:before {
+  background-color: rgba(0, 80, 159, 0);
+}
+
+.footer-middle .widget h2 {
+  color: #ffffff;
+}
+
+.footer-middle .widget ul li,
+    .footer-middle .widget ul li a,
+    .footer-middle .widget ul li::before,
+    .footer-middle .tagcloud a,
+    .footer-middle caption,
+    .footer-middle table,
+    .footer-middle table td a,
+    .footer-middle cite,
+    .footer-middle .rssSummary,
+    .footer-middle span.rss-date,
+    .footer-middle span.comment-author-link,
+    .footer-middle .textwidget p,
+    .footer-middle .widget .screen-reader-text,
+    mc4wp-form-fields p,
+    .mc4wp-form-fields,
+    .footer-m-address p,
+    .footer-m-address,
+    .footer-widget.address,
+    .footer-widget.address p,
+    .mc4wp-form-fields p,
+    .alternat-description-area p,
+    .alternat-description-area .phone a,
+    .alternat-description-area .social-icons a,
+    .recent-review-content h3,
+    .recent-review-content h3 a,
+    .recent-review-content p,
+    .footer-middle .alternat-description-area p,
+    .footer-middle .recent-post-text h4 a,
+    .footer-middle .recent-post-text .rcomment,
+    .witr_sub_table span {
+  color: #ffffff;
+}
+
+.copy-right-text p,
+    .footer-menu ul li a {
+  color: #ffffff;
+}
+
+.shortcode_content h2 {
+  font-display: swap;
+}
+
+.shortcode_content p {
+  font-display: swap;
+}
+
+html {
+  background: url(../assets/images/aurora.gif) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(281, 41%, 35%) 15%,
+      hsl(286, 41%, 23%) 35%,
+      hsl(277, 42%, 12%) 75%,
+      hsl(271, 40%, 12%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(280, 41%, 9%) 15%,
+      hsl(296, 37%, 7%) 35%,
+      hsl(0, 0%, 0%) 75%,
+      hsl(0, 0%, 0%) 80%,
+      transparent 100%
+    );
+}
+
+.background-radial-gradient-2 {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(281, 41%, 35%) 15%,
+      hsl(286, 41%, 23%) 15%,
+      hsl(277, 42%, 12%) 35%,
+      hsl(271, 40%, 12%) 15%,
+      transparent 100%
+    ),
+    radial-gradient-2(
+      1250px circle at 100% 100%,
+      hsl(280, 41%, 9%) 80%,
+      hsl(296, 37%, 7%) 75%,
+      hsl(0, 0%, 0%) 35%,
+      hsl(0, 0%, 0%) 15%,
+      transparent 100%
+    );
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  -webkit-backdrop-filter: saturate(200%) blur(25px);
+          backdrop-filter: saturate(200%) blur(25px);
+}
+
+.gifbg{
+  background-color: #000;
+  width: 100%;
+  background-image: url('../assets/images/aurora.gif');
+  background-size: cover;
+  height: 75vh;
+  padding:0;
+  margin:0;
+  background-repeat: no-repeat;
+}
+
 .hover\:bg-coolGray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(51 63 81 / var(--tw-bg-opacity));
@@ -1328,3 +1577,4 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 6rem;
   }
 }
+

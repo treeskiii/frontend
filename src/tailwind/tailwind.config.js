@@ -3,6 +3,8 @@ module.exports = {
         './src/pug/*.pug',
         './src/html/*.html',
     ],
+
+    
     
     theme: {
         screens: {
