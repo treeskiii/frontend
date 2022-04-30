@@ -534,28 +534,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0.75rem;
 }
 
-.-right-7 {
-  right: -1.75rem;
-}
-
-.-bottom-8 {
-  bottom: -2rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.-left-10 {
-  left: -2.5rem;
-}
-
 .z-50 {
   z-index: 50;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .order-2 {
@@ -574,6 +554,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mr-12 {
@@ -600,12 +585,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mb-20 {
@@ -614,18 +599,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.-mt-6 {
-  margin-top: -1.5rem;
-}
-
-.-mr-6 {
-  margin-right: -1.5rem;
-}
-
-.-mb-6 {
-  margin-bottom: -1.5rem;
 }
 
 .mb-14 {
@@ -672,12 +645,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-14 {
   height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-12 {
@@ -712,14 +685,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 3.5rem;
 }
 
-.w-28 {
-  width: 7rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -740,6 +705,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.resize {
+  resize: both;
+}
+
+.columns-md {
+  -moz-columns: 28rem;
+       columns: 28rem;
 }
 
 .flex-col {
@@ -798,10 +772,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.rounded-4xl {
-  border-radius: 1rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -810,13 +780,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: transparent;
 }
 
-.bg-coolGray-900 {
+.bg-darkCoolGray-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(42 51 66 / var(--tw-bg-opacity));
+  background-color: rgb(28 35 45 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-coolGray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 51 66 / var(--tw-bg-opacity));
 }
 
 .bg-indigo-500 {
@@ -834,8 +809,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(247 248 249 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(150 133 255 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 61 191 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
 }
 
 .p-6 {
@@ -895,19 +884,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.75rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pt-24 {
@@ -950,16 +943,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
 }
 
 .font-medium {
@@ -1026,6 +1019,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(248 187 84 / var(--tw-text-opacity));
+}
+
 .text-green-50 {
   --tw-text-opacity: 1;
   color: rgb(244 253 247 / var(--tw-text-opacity));
@@ -1034,6 +1032,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-coolGray-100 {
   --tw-text-opacity: 1;
   color: rgb(238 240 243 / var(--tw-text-opacity));
+}
+
+.text-coolGray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(187 195 207 / var(--tw-text-opacity));
 }
 
 .text-coolGray-900 {
@@ -1046,11 +1049,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(85 105 135 / var(--tw-text-opacity));
 }
 
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(42 209 103 / var(--tw-text-opacity));
@@ -1059,11 +1057,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-coolGray-700 {
   --tw-text-opacity: 1;
   color: rgb(64 79 101 / var(--tw-text-opacity));
-}
-
-.text-coolGray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(187 195 207 / var(--tw-text-opacity));
 }
 
 .antialiased {
@@ -1089,182 +1082,61 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 200ms;
 }
 
-h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-  font-display: swap;
-}
-
-h1 {
-  font-display: swap;
-}
-
-h2 {
-  font-display: swap;
-}
-
-h3 {
-  font-display: swap;
-}
-
-h4 {
-  font-display: swap;
-}
-
-h5 {
-  font-display: swap;
-}
-
-h6 {
-  font-display: swap;
-}
-
-.alternat-header-top {
-  background-color: #0e0932;
-  padding-right: 200px;
-  padding-left: 200px;
-}
-
-.creative_header_address_text>h3 {
-  font-display: swap;
-}
-
-.creative_header_address_text>p,
-    .creative_header_address_text>p>a,
-    .top_crmenu_l li a,
-    .cr_top_addess p span,
-    .cr_top_addess p a {
-  font-display: swap;
-}
-
-.alternat_menu>ul>li>a,
-    .heading_style_2 .alternat_menu>ul>li>a,
-    .heading_style_3 .alternat_menu>ul>li>a,
-    .heading_style_4 .alternat_menu>ul>li>a,
-    .witr_search_wh .em-header-quearys .em-quearys-menu i,
-    .right_sideber_menu i,
-    .main_menu_header_icon i,
-    .main_menu_header_address_text h3,
-    .main_menu_header_address_text h4 a,
-    .heading_style_5 .alternat_menu>ul>li>a {
-  font-display: swap;
-}
-
-.alternat_nav_area.prefix,
-    .hbg2 {
-  background-color: #0e1a42;
-}
-
-.alternat_menu ul .sub-menu li a {
-  font-display: swap;
-}
-
-.alternat_nav_area {
-  border-bottom: 1px solid #1a2f44;
-}
-
-.alternat_nav_area,
-    .trp_nav_area,
-    .transprent-menu .alternat_nav_area {
-  padding-right: 200px;
-  padding-left: 200px;
-}
-
-.breadcumb-area,
-    .breadcumb-blog-area {
-  background-position: center center;
-  background-image: url('../assets/images/beacontoken.jpg');
-  background-size: cover;
-}
-
-.breadcumb-area::before,
-    .breadcumb-blog-area::before {
-  background-color: rgba(0, 0, 0, 0.73);
-}
-
-.breadcumb-inner ul,
-    .breadcumb-inner ul span a,
-    .breadcumb-inner li,
-    .breadcumb-inner li a {
-  color: #ffffff;
-  font-display: swap;
-}
-
-.footer-social-icon a i:hover,
-    .footer-social-icon.htop-menu-s a i:hover,
-    .em_slider_social a:hover,
-    .top_crmenu_i_list li a i:hover,
-    .top-right-menu ul.social-icons li a i:hover {
-  color: #8224e3;
-}
-
-.witrfm_area {
-  background-position: center center;
-  background-image: url('https://demo.themexbd.com/rtl/alternat/wp-content/uploads/2021/06/slider-bg.jpg');
-  background-size: cover;
-}
-
-.witrfm_area:before {
-  background-color: rgba(0, 80, 159, 0);
-}
-
-.footer-middle .widget h2 {
-  color: #ffffff;
-}
-
-.footer-middle .widget ul li,
-    .footer-middle .widget ul li a,
-    .footer-middle .widget ul li::before,
-    .footer-middle .tagcloud a,
-    .footer-middle caption,
-    .footer-middle table,
-    .footer-middle table td a,
-    .footer-middle cite,
-    .footer-middle .rssSummary,
-    .footer-middle span.rss-date,
-    .footer-middle span.comment-author-link,
-    .footer-middle .textwidget p,
-    .footer-middle .widget .screen-reader-text,
-    mc4wp-form-fields p,
-    .mc4wp-form-fields,
-    .footer-m-address p,
-    .footer-m-address,
-    .footer-widget.address,
-    .footer-widget.address p,
-    .mc4wp-form-fields p,
-    .alternat-description-area p,
-    .alternat-description-area .phone a,
-    .alternat-description-area .social-icons a,
-    .recent-review-content h3,
-    .recent-review-content h3 a,
-    .recent-review-content p,
-    .footer-middle .alternat-description-area p,
-    .footer-middle .recent-post-text h4 a,
-    .footer-middle .recent-post-text .rcomment,
-    .witr_sub_table span {
-  color: #ffffff;
-}
-
-.copy-right-text p,
-    .footer-menu ul li a {
-  color: #ffffff;
-}
-
-.shortcode_content h2 {
-  font-display: swap;
-}
-
-.shortcode_content p {
-  font-display: swap;
-}
-
 html {
   background: url(../assets/images/aurora.gif) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+}
+
+.resize {
+  width: 200px;
+  height: auto;
+}
+
+.resize2{
+  width: 300px;
+  height: auto;
+}
+
+.floating {
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    transform: translate(0,  0px);
+  }
+
+  50%  {
+    transform: translate(0, 15px);
+  }
+
+  100%   {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0,  0px);
+  }
+
+  50%  {
+    transform: translate(0, 15px);
+  }
+
+  100%   {
+    transform: translate(0, -0px);
+  }
 }
 
 .background-radial-gradient {
@@ -1291,10 +1163,11 @@ html {
   background-color: hsl(218, 41%, 15%);
   background-image: radial-gradient(
       650px circle at 0% 0%,
-      hsl(281, 41%, 35%) 15%,
-      hsl(286, 41%, 23%) 15%,
+      hsl(281, 41%, 35%) 80%,
+      hsl(286, 41%, 23%) 75%,
       hsl(277, 42%, 12%) 35%,
       hsl(271, 40%, 12%) 15%,
+      transparent 100%
       transparent 100%
     ),
     radial-gradient-2(
@@ -1348,9 +1221,9 @@ html {
   background-color: rgb(51 63 81 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-green-600:hover {
+.hover\:bg-indigo-800:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(38 188 94 / var(--tw-bg-opacity));
+  background-color: rgb(63 49 153 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-indigo-300:hover {
@@ -1361,6 +1234,11 @@ html {
 .hover\:bg-coolGray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(64 79 101 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 188 94 / var(--tw-bg-opacity));
 }
 
 .hover\:text-coolGray-50:hover {
@@ -1400,6 +1278,16 @@ html {
   --tw-ring-color: rgb(64 79 101 / var(--tw-ring-opacity));
 }
 
+.focus\:ring-indigo-700:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(79 61 191 / var(--tw-ring-opacity));
+}
+
+.focus\:ring-indigo-800:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(63 49 153 / var(--tw-ring-opacity));
+}
+
 .focus\:ring-opacity-50:focus {
   --tw-ring-opacity: 0.5;
 }
@@ -1415,6 +1303,10 @@ html {
 
   .md\:mr-0 {
     margin-right: 0px;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .md\:mb-20 {
@@ -1452,11 +1344,6 @@ html {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .md\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
   }
 
   .md\:px-8 {
@@ -1502,28 +1389,16 @@ html {
     margin-bottom: 0px;
   }
 
-  .lg\:-mt-12 {
-    margin-top: -3rem;
-  }
-
-  .lg\:-mr-12 {
-    margin-right: -3rem;
-  }
-
-  .lg\:-ml-12 {
-    margin-left: -3rem;
+  .lg\:w-1\/5 {
+    width: 20%;
   }
 
   .lg\:w-1\/3 {
     width: 33.333333%;
   }
 
-  .lg\:w-auto {
-    width: auto;
-  }
-
-  .lg\:w-1\/5 {
-    width: 20%;
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:items-center {
@@ -1571,10 +1446,6 @@ html {
 
   .xl\:justify-center {
     justify-content: center;
-  }
-
-  .xl\:pt-24 {
-    padding-top: 6rem;
   }
 }
 

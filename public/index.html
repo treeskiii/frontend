@@ -20,9 +20,8 @@
 
 <body class="antialiased bg-darkCoolGray-900 text-body font-body">
   <div class="">
-
-    <section class="relative overflow-hidden"
-      style="background-image: url('images/darkbg1.png'); background-position: center;">
+    <section class="relative overflow-hidden bg-cover"
+      style="background-image: url('images/darkbg1.png'); background-position: center; ">
       <div class="bg-transparent">
         <nav class="flex justify-between p-6 px-12">
           <div class="flex justify-between items-center w-full">
@@ -74,7 +73,7 @@
                       class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                       href="#">FAQ</a></li>
                 </ul>
-                <div class="flex flex-wrap">
+                <div class="flex">
                   <div class="w-full"><a
                       class="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-indigo-500 hover:bg-indigo-800 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md"
                       href="#">Enter App (Coming Soon)</a></div>
@@ -89,7 +88,6 @@
           </div>
         </div>
       </div>
-
 
       <!-- Hero  -->
       <div class="">
@@ -121,43 +119,89 @@
       </div>
     </section>
 
-
     <!-- Jumbotron  -->
 
-    <section class="container-fluid bg-darkCoolGray-900"">
-              <div class=" container px-4 mx-auto pt-10 bg-transparent col-10">
-      <div class="flex relative py-16 px-4 md:px-8 lg:px-16 bg-coolGray-50 rounded-md overflow-hidden"
+    <section class="container-fluid bg-darkCoolGray-900"">         
+      <div class=" container px-4 mx-auto pt-10 bg-transparent">
+      <h3
+        class="mb-2 text-4xl md:text-5xl leading-tight font-bold tracking-tighter text-white justify-center flex justify-center">
+        Quick
+        Links
+      </h3>
+      <div class="flex-row relative py-16 px-4 md:px-8 lg:px-16 bg-coolGray-50 rounded-md overflow-hidden grid-cols-2 "
         style="background-image: url('images/lgbg.png'); background-position: center;">
-        <div class="inline-block">
-          <img class="resize" src="images/herculesfront.png" alt="">
-        </div>
-        <div class=" relative max-w-max mx-auto text-center">
-          <h3 class="mb-2 text-2xl md:text-5xl leading-tight font-bold tracking-tighter text-white">Quick Links</h3>
-          <p class="mb-6 text-base md:text-xl text-coolGray-400">We know you're busy. Here are some TLDR quick links.
-          </p>
-          <div class="columns-md">
-            <a class="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-500"
-              href="#">
-              Discord</a>
-            <a class="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-800 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-400"
-              href="#">Whitepaper</a>
-            <a class="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-700"
-              href="#">Twitter</a>
+        <div class="flex 01 my-2">
+          <div
+            class="bg-darkCoolGray-900 p-8 text-center hover:bg-coolGray-800 rounded-md hover:shadow-xl transition duration-200 bg-opacity-60">
+            <div
+              class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-coolGray-900 rounded-lg bg-indigo-500">
+              <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10 13H3C2.73478 13 2.48043 13.1054 2.29289 13.2929C2.10536 13.4804 2 13.7348 2 14V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H10C10.2652 22 10.5196 21.8946 10.7071 21.7071C10.8946 21.5196 11 21.2652 11 21V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 20H4V15H9V20ZM21 2H14C13.7348 2 13.4804 2.10536 13.2929 2.29289C13.1054 2.48043 13 2.73478 13 3V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM20 9H15V4H20V9ZM21 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V21C13 21.2652 13.1054 21.5196 13.2929 21.7071C13.4804 21.8946 13.7348 22 14 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V14C22 13.7348 21.8946 13.4804 21.7071 13.2929C21.5196 13.1054 21.2652 13 21 13ZM20 20H15V15H20V20ZM10 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V3C11 2.73478 10.8946 2.48043 10.7071 2.29289C10.5196 2.10536 10.2652 2 10 2V2ZM9 9H4V4H9V9Z"
+                  fill="currentColor"></path>
+              </svg>
+            </div>
+            <h3 class="mb-4 text-white font-bold text-3xl">TLDR</h3>
+            <li class="text-coolGray-300 sm:text-xl text-left"> <span
+                class="text-indigo-500 text-lg md:text-xl lg:text-2xl">Wayfinder
+                Finance</span> has
+              designed a protocol that allows anyone to devise and implement their own investment strategy with
+              limitless
+              scalability.
+            </li>
+            <br>
+            <li class="text-coolGray-300 sm:text-xl text-left">
+              <span class="text-yellow-400 text-lg md:text-xl lg:text-2xl">Waypoints</span> give investment managers the
+              ability to create,
+              implement, and manage their strategies safely and efficiently. Users can choose from our selection of
+              Waypoints to create their Journey,
+              simplifying the curation of a perfectly balanced crypto portfolio.
+            </li>
+            <br>
+            <li class="text-coolGray-300  sm:text-xl text-left">
+              <span class="text-green-400 text-lg md:text-xl lg:text-2xl">ELI5 Example Scenario:</span> Your favorite
+              Youtube/Celeb investor can finally prove his
+              worth by creating his own Actively Managed Waypoint and allowing users to stake into their strategy and
+              share profits. Managers are rewarded for good performance and Users are rewarded with strategy profit and
+              airdropped incentives.
+            </li>
+            <br>
+            <p class="text-coolGray-300  sm:text-xl text-left">
+              <span class="text-indigo-400 flex justify-center">Scroll for More!</span>
+            </p>
           </div>
         </div>
-        <div class="inline-block">
-          <img class="resize2 floating" src="images/floatingbank.png" alt="">
+        <div class="flex-row justify-center">
+          <div
+            class="bg-darkCoolGray-900 p-8 text-center hover:bg-coolGray-800 rounded-md hover:shadow-xl transition duration-200 bg-opacity-60">
+            <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Quick Links</h3>
+            <div class="flex justify-center">
+              <img class="flex resize2 floating" src="images/floatingbank.png" alt="">
+            </div>
+            <div class="flex-col">
+              <div class="flex justify-center">
+                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-500"
+                  href="#">
+                  Discord</a>
+                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-800 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-400"
+                  href="#">Whitepaper</a>
+                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-700"
+                  href="#">Twitter</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
   </div>
   </div>
+  </div>
 
-  <!-- Sponsors  -->
-  <section class="container py-10 bg-darkcoolGray-900">
-    <div class="container px-4 mx-auto">
+
+  <!-- Multichain  -->
+  <section class="container-fluid py-10 bg-darkcoolGray-900">
+    <div class="container-fluid px-4 flex-col justify-center">
       <h3 class="mb-8 text-center font-medium leading-6 text-coolGray-300">
         Multichain
-
       </h3>
       <div class="flex flex-wrap justify-center -mx-4">
         <div class="w-1/2 md:w-1/3 lg:w-1/5 px-4 mb-8 lg:mb-0">
@@ -172,24 +216,10 @@
       </div>
     </div>
   </section>
-
-
-
-
-
   </section>
 
-
-
-
-
-
-
-
-
-
   <!-- Features  -->
-  <section class="py-24 bg-coolGray-900"
+  <section class="py-24 bg-coolGray-900 bg-cover"
     style="background-image: url(/images/darkbg4.png); background-position:top ; background-size: cover;">
     <div class="container px-4 mx-auto">
       <div class="xl:max-w-4xl mb-12 mx-auto text-center">
@@ -276,9 +306,9 @@
     </div>
   </section>
 
-<!-- Waypoints  -->
-  <section class="py-24 bg-coolGray-900 overflow-hidden"
-    style="background-image: url('/images/darkbg4.png'); background-position: bottom;">
+  <!-- Waypoints  -->
+  <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
+    style="background-image: url('/images/darkbg1.png'); background-position: bottom;">
     <div class="container px-4 mx-auto">
       <div class="md:max-w-4xl mb-16 md:mb-20">
         <span
@@ -290,7 +320,7 @@
           newbie. There are 3 different types of Waypoints. </p>
       </div>
       <div class="flex flex-wrap lg:items-center -mx-4">
-        <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0 order-2">
           <div
             class="flex flex-wrap p-8 text-center md:text-left hover:bg-coolGray-700 rounded-md hover:shadow-xl transition duration-200 bg-opacity-60">
             <div class="w-full md:w-auto mb-6 md:mb-0 md:pr-6">
@@ -349,15 +379,18 @@
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 px-4">
-
+        <div class="w-full md:w-1/2 px-4 order-1">
+          <div class="w-full px-4 mb-16 md:mb-0">
+            <div class="relative mx-auto md:ml-0 max-w-max">
+              <img src="images/waypoint.png" alt="">
+            </div>
+          </div>
         </div>
       </div>
   </section>
 
-
   <!-- Our System  -->
-  <section class="py-24 bg-coolGray-900 overflow-hidden"
+  <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
     style="background-image: url('/images/lgbg.png'); background-position: center;">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-4">
@@ -410,9 +443,9 @@
   </section>
 
 
- <!-- Token Launch  -->
-  <section class="py-24 bg-coolGray-900 overflow-hidden"
-    style="background-image: url('/images/darkbg4.png'); background-position: center;">
+  <!-- Token Launch  -->
+  <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
+    style="background-image: url('/images/darkbg1.png'); background-position: center;">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-20 lg:mb-0 order-2">
@@ -454,7 +487,7 @@
   </section>
 
 
-<!-- Team  -->
+  <!-- Team  -->
   <section class="py-24 bg-coolGray-900"
     style="background-image: url('/images/lgbg.png'); background-position: center;">
     <div class="container px-4 mx-auto">
@@ -497,9 +530,10 @@
           <div class="max-w-xs mx-auto md:ml-0">
             <img class="w-24 h-24 mb-6 rounded-full" src="flex-ui-assets/images/teams/avatar2.png" alt="">
             <h3 class="cmb-1 text-lg font-semibold text-white">Treeski</h3>
-            <span class="inline-block mb-4 text-lg font-medium text-green-500">Co-founder, Web3 Design</span>
-            <p class="mb-4 text-coolGray-400 font-medium">Former Athlete turned Web3 Designer. Certified in UX Design by
-              Google and always learning the latest trends. </p>
+            <span class="inline-block mb-4 text-lg font-medium text-green-500">Co-founder, Web3 Design and
+              Development</span>
+            <p class="mb-4 text-coolGray-400 font-medium">Founder of Piolabs, A Web3 Design Studio specializing in 3D
+              Assets, UX/UI Design, and Web3 Development. </p>
             <div class="flex items-center">
               <a class="inline-block mr-5 text-coolGray-700 hover:text-coolGray-600" href="#">
               </a>
@@ -524,7 +558,7 @@
           <div class="max-w-xs mx-auto md:ml-0">
             <img class="w-24 h-24 mb-6 rounded-full" src="flex-ui-assets/images/teams/avatar3.png" alt="">
             <h3 class="cmb-1 text-lg font-semibold text-white">Anotherecho</h3>
-            <span class="inline-block mb-4 text-lg font-medium text-green-500">Operations</span>
+            <span class="inline-block mb-4 text-lg font-medium text-green-500">Co-Founder, Operations</span>
             <p class="mb-4 text-coolGray-400 font-medium">Add Bio Here.</p>
             <div class="flex items-center">
               <a class="inline-block mr-5 text-coolGray-700 hover:text-coolGray-600" href="#">
@@ -550,7 +584,7 @@
           <div class="max-w-xs mx-auto md:ml-0">
             <img class="w-24 h-24 mb-6 rounded-full" src="flex-ui-assets/images/teams/avatar4.png" alt="">
             <h3 class="cmb-1 text-lg font-semibold text-white">Noso22</h3>
-            <span class="inline-block mb-4 text-lg font-medium text-green-500">Community </span>
+            <span class="inline-block mb-4 text-lg font-medium text-green-500">Community Operations </span>
             <p class="mb-4 text-coolGray-400 font-medium">Expert community manager who has proven his worth throughout
               many different protocol communities. </p>
             <div class="flex items-center">
