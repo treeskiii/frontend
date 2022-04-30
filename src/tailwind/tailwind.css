@@ -17,6 +17,30 @@ html {
     height: 100%;
   }
 
+  .resize {
+    width: 200px;
+    height: auto;
+}
+
+.resize2{
+  width: 300px;
+  height: auto;
+}
+
+  .floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
 
 .background-radial-gradient {
     background-color: hsl(218, 41%, 15%);
@@ -43,10 +67,11 @@ html {
     background-color: hsl(218, 41%, 15%);
     background-image: radial-gradient(
       650px circle at 0% 0%,
-      hsl(281, 41%, 35%) 15%,
-      hsl(286, 41%, 23%) 15%,
+      hsl(281, 41%, 35%) 80%,
+      hsl(286, 41%, 23%) 75%,
       hsl(277, 42%, 12%) 35%,
       hsl(271, 40%, 12%) 15%,
+      transparent 100%
       transparent 100%
     ),
     radial-gradient-2(
