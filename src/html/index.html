@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="js/main.js"></script>
   <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  
 </head>
 
 <body class="antialiased bg-darkCoolGray-900 text-body font-body">
@@ -31,11 +32,11 @@
             </div>
             <div class="w-1/2 xl:w-1/3">
               <ul class="hidden xl:flex xl:justify-center">
-                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#">Waypoints</a>
+                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#Waypoints">Waypoints</a>
                 </li>
-                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#">Features</a>
+                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#Features">Features</a>
                 </li>
-                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#">Resources</a>
+                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="#Jumbotron">Resources</a>
                 </li>
                 <li>
               </ul>
@@ -58,20 +59,20 @@
               <div class="flex flex-col justify-start h-full">
                 <a class="inline-block" href="#">
                   <img class="h-8" src="images/Logotiny.png" alt=""></a>
-                <img class="-mb--10" src="images/morethan-1.png" alt=""></a>
+                <img class="-mb--10 floating" src="images/morethan-1.png" alt=""></a>
                 <ul class="py-3">
                   <li><a
                       class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
                       href="#">Whitepaper</a></li>
                   <li><a
                       class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#">Features</a></li>
+                      href="#Features">Features</a></li>
                   <li><a
                       class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#">Team</a></li>
+                      href="#Team">Team</a></li>
                   <li><a
                       class="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#">FAQ</a></li>
+                      href="#Faq">FAQ</a></li>
                 </ul>
                 <div class="flex">
                   <div class="w-full"><a
@@ -90,7 +91,7 @@
       </div>
 
       <!-- Hero  -->
-      <div class="">
+      <div class="" id="Hero">
         <div class="container px-4 mx-auto">
           <div class="flex flex-wrap xl:items-center -mx-4">
             <div class="w-full md:w-1/2 px-4 mb-16 md:mb-0 order-2">
@@ -119,85 +120,98 @@
       </div>
     </section>
 
-    <!-- Jumbotron  -->
+    <!-- Quick Links  -->
 
-    <section class="container-fluid bg-darkCoolGray-900"">         
+    <section class="container-fluid bg-darkCoolGray-900" id="Jumbotron">
       <div class=" container px-4 mx-auto pt-10 bg-transparent">
-      <h3 class="mb-2 text-4xl md:text-5xl leading-tight font-bold tracking-tighter text-white flex justify-center">
-        Quick Links
-      </h3>
-      <div class="flex-row relative py-16 px-4 md:px-8 lg:px-16 bg-coolGray-50 rounded-md overflow-hidden grid-cols-2 bg-cover "
-        style="background-image: url('images/lgbg.png'); background-position: center;">
-        <div class="flex 01 my-2">
-          <div
-            class="bg-darkCoolGray-900 p-8 text-center rounded-md transition duration-200 bg-opacity-60">
-            <div
-              class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-coolGray-900 rounded-lg bg-indigo-500">
-              <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M10 13H3C2.73478 13 2.48043 13.1054 2.29289 13.2929C2.10536 13.4804 2 13.7348 2 14V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H10C10.2652 22 10.5196 21.8946 10.7071 21.7071C10.8946 21.5196 11 21.2652 11 21V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 20H4V15H9V20ZM21 2H14C13.7348 2 13.4804 2.10536 13.2929 2.29289C13.1054 2.48043 13 2.73478 13 3V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM20 9H15V4H20V9ZM21 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V21C13 21.2652 13.1054 21.5196 13.2929 21.7071C13.4804 21.8946 13.7348 22 14 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V14C22 13.7348 21.8946 13.4804 21.7071 13.2929C21.5196 13.1054 21.2652 13 21 13ZM20 20H15V15H20V20ZM10 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V3C11 2.73478 10.8946 2.48043 10.7071 2.29289C10.5196 2.10536 10.2652 2 10 2V2ZM9 9H4V4H9V9Z"
-                  fill="currentColor"></path>
-              </svg>
+        <div
+          class="flex-row relative py-16 px-4 md:px-8 lg:px-16 bg-coolGray-50 rounded-md overflow-hidden bg-cover "
+          style="background-image: url('images/darkbg2.png'); background-position: center; background-size: cover;">
+          <div class="flex-row my-2 border-md">
+            <div class="bg-darkCoolGray-900 p-8 text-center rounded-md bg-opacity-60">
+              <h3 class="mb-4 text-white font-bold text-3xl">TLDR</h3>
+              <div class="container items-center rounded-lg">
+                <div class="flex items-center bg-coolGray-900 rounded-lg bg-opacity-60 my-6">
+                  <div class="flex mb-4">
+                    <img class="max-w-sm" src="/images/herculesfront.png " alt="">
+                  </div>
+                  <div class="p-4 flex">
+                    <div class="text-coolGray-300 sm:text-xl text-left ">
+                      <span class="text-indigo-500 text-lg md:text-xl lg:text-2xl font-bold">Wayfinder Finance</span> has
+                      designed a protocol that allows anyone to devise and implement their own investment strategy with
+                      limitless
+                      scalability.
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="flex-col items-center bg-coolGray-900 rounded-lg bg-opacity-60 my-6">
+                  <div class="flex justify-center">
+                    <img class="flex items-center resize2 floating" src="/images/waypoint.png " alt="">
+                  </div>
+                  <div class="p-4 flex lg:w-60">
+                    <div class="text-coolGray-300 sm:text-xl text-left  ">
+                      <span class="text-yellow-400 text-lg md:text-xl lg:text-2xl font-bold">Waypoints</span> give investment managers
+                      the
+                      ability to create,
+                      implement, and manage their strategies safely and efficiently. Users can choose from our selection of
+                      Waypoints to create their Journey,
+                      simplifying the curation of a perfectly balanced crypto portfolio.
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="flex items-center bg-coolGray-900 rounded-lg bg-opacity-60 ">
+                  <div class="flex mb-4 w-20">
+                    <img class="max-w-sm" src="/" alt="">
+                  </div>
+                  <div class="p-4 ">
+                    <div class="text-coolGray-300 sm:text-xl text-left ">
+                      <span class="text-green-400 text-lg md:text-xl lg:text-2xl font-bold">ELI5 Example Scenario:</span> Your
+                      favorite
+                      Youtube/Celeb investor can finally prove his
+                      worth by creating his own Actively Managed Waypoint and allowing users to stake into their strategy
+                      and
+                      share profits. Managers are rewarded for good performance and Users are rewarded with strategy profit
+                      and
+                      airdropped incentives.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h3 class="mb-4 text-white font-bold text-3xl">TLDR</h3>
-            <li class="text-coolGray-300 sm:text-xl text-left"> <span
-                class="text-indigo-500 text-lg md:text-xl lg:text-2xl">Wayfinder
-                Finance</span> has
-              designed a protocol that allows anyone to devise and implement their own investment strategy with
-              limitless
-              scalability.
-            </li>
             <br>
-            <li class="text-coolGray-300 sm:text-xl text-left">
-              <span class="text-yellow-400 text-lg md:text-xl lg:text-2xl">Waypoints</span> give investment managers the
-              ability to create,
-              implement, and manage their strategies safely and efficiently. Users can choose from our selection of
-              Waypoints to create their Journey,
-              simplifying the curation of a perfectly balanced crypto portfolio.
-            </li>
-            <br>
-            <li class="text-coolGray-300  sm:text-xl text-left">
-              <span class="text-green-400 text-lg md:text-xl lg:text-2xl">ELI5 Example Scenario:</span> Your favorite
-              Youtube/Celeb investor can finally prove his
-              worth by creating his own Actively Managed Waypoint and allowing users to stake into their strategy and
-              share profits. Managers are rewarded for good performance and Users are rewarded with strategy profit and
-              airdropped incentives.
-            </li>
-            <br>
-            <p class="text-coolGray-300  sm:text-xl text-left">
-              <span class="text-indigo-400 flex justify-center">Scroll for More!</span>
-            </p>
-          </div>
-        </div>
-        <div class="flex-row justify-center">
-          <div
-            class="bg-darkCoolGray-900 p-8 text-center rounded-md hover:shadow-xl transition duration-200 bg-opacity-60">
-            <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Quick Links</h3>
-            <div class="flex justify-center">
-              <img class="flex resize2 floating" src="images/floatingbank.png" alt="">
-            </div>
-            <div class="flex-col">
-              <div class="flex justify-center">
-                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-500"
-                  href="#">
-                  Discord</a>
-                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-800 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-400"
-                  href="#">Whitepaper</a>
-                <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-700"
-                  href="#">Twitter</a>
+
+
+            <div class="flex-row justify-center mt-4 rounded-lg"
+              style="background-image: url(/images/aurora.gif); background-position:center ; background-size: cover;">
+              <div class="bg-darkCoolGray-900 p-8 text-center rounded-md hover:shadow-xl transition duration-200 bg-opacity-60">
+                <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Quick Links</h3>
+                <div class="flex justify-center">
+                  <img class="flex resize2 floating" src="images/floatingbank.png" alt="">
+                </div>
+                <div class="flex justify-center ">
+                  <div class="flex justify-center bg-darkCoolGray-900 bg-opacity-60 py-3 rounded-md">
+                    <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-500"
+                      href="#">
+                      Discord</a>
+                    <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-800 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-400"
+                      href="#">Whitepaper</a>
+                    <a class="mx-2 flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-2 md:mr-4 text-lg leading-7 text-green-50 hover:bg-indigo-800 font-medium focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm bg-indigo-700"
+                      href="#">Twitter</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-  </div>
-  </div>
-  </div>
+      </div>
 
 
   <!-- Multichain  -->
   <section class="container-fluid py-10 bg-darkcoolGray-900">
-    <div class="container-fluid px-4 flex-col justify-center">
+    <div class="container-fluid px-4 flex-col justify-center" id="Multichain">
       <h3 class="mb-8 text-center font-medium leading-6 text-coolGray-300">
         Multichain
       </h3>
@@ -218,7 +232,7 @@
 
   <!-- Features  -->
   <section class="py-24 bg-coolGray-900 bg-cover"
-    style="background-image: url(/images/darkbg4.png); background-position:top ; background-size: cover;">
+    style="background-image: url(/images/darkbg4.png); background-position:top ; background-size: cover;" id="Features">
     <div class="container px-4 mx-auto">
       <div class="xl:max-w-4xl mb-12 mx-auto text-center">
 
@@ -306,14 +320,14 @@
 
   <!-- Waypoints  -->
   <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
-    style="background-image: url('/images/darkbg1.png'); background-position: bottom;">
+    style="background-image: url('/images/darkbg1.png'); background-position: bottom;" id="Waypoints">
     <div class="container px-4 mx-auto">
       <div class="md:max-w-4xl mb-16 md:mb-20">
         <span
           class="inline-block py-px px-2 mb-4 text-xs leading-5 font-medium uppercase rounded-full shadow-sm bg-indigo-500 text-white">Features</span>
         <h1 class="mb-4 text-3xl md:text-4xl leading-tight text-white font-bold tracking-tighter">Introducing Waypoints
         </h1>
-        <p class="text-lg md:text-xl text-coolGray-400 font-medium">Waypoints are programmable vaults that allow the
+        <p class="text-lg md:text-xl text-coolGray-300 font-medium">Waypoints are programmable vaults that allow the
           users to easily take advantage of advanced strategies that would otherwise difficult or impossible for the
           newbie. There are 3 different types of Waypoints. </p>
       </div>
@@ -333,7 +347,7 @@
             </div>
             <div class="w-full md:flex-1 md:pt-3">
               <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Choose your Journey!</h3>
-              <p class="text-coolGray-500 font-medium">Waypoints allow you to easily choose how to put your money to
+              <p class="text-coolGray-300 font-medium">Waypoints allow you to easily choose how to put your money to
                 work. You can choose from safer stablecoin options or our actively managed Waypoints.</p>
             </div>
           </div>
@@ -352,7 +366,7 @@
             <div class="w-full md:flex-1 md:pt-3">
               <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Simplified Investing, Advanced
                 Results</h3>
-              <p class="text-coolGray-500 font-medium">Trying to navigate your way around Defi can be a very risky and
+              <p class="text-coolGray-300 font-medium">Trying to navigate your way around Defi can be a very risky and
                 costly learning experience. Let our W
                 aypoints take care of that for you. </p>
             </div>
@@ -372,7 +386,7 @@
             <div class="w-full md:flex-1 md:pt-3">
               <h3 class="mb-4 text-xl md:text-2xl leading-tight text-white font-bold">Claim Airdrops and Receive Rewards
               </h3>
-              <p class="text-coolGray-500 font-medium">Wen Airdrop?? All the time!. Investment managers of actively
+              <p class="text-coolGray-300 font-medium">Wen Airdrop?? All the time!. Investment managers of actively
                 managed Waypoints may choose to reward and incentivize stakers via airdrops. </p>
             </div>
           </div>
@@ -380,7 +394,7 @@
         <div class="w-full md:w-1/2 px-4 order-1">
           <div class="w-full px-4 mb-16 md:mb-0">
             <div class="relative mx-auto md:ml-0 max-w-max">
-              <img src="images/waypoint.png" alt="">
+              <img src="images/waypointsteps.png" alt="">
             </div>
           </div>
         </div>
@@ -388,7 +402,7 @@
   </section>
 
   <!-- Our System  -->
-  <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
+  <section class="py-24 bg-coolGray-300 overflow-hidden bg-cover"
     style="background-image: url('/images/lgbg.png'); background-position: center;">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-4">
@@ -408,14 +422,14 @@
                 class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-indigo-500">
                 1</div>
               <h3 class="mb-2 text-xl text-white font-bold">Buy and Stake</h3>
-              <p class="font-medium text-coolGray-400">Swap for our token at your preferred DEX. </p>
+              <p class="font-medium text-coolGray-300">Swap for our token at your preferred DEX. </p>
             </div>
             <div class="w-full md:w-1/2 px-4 mb-8">
               <div
                 class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-indigo-500">
                 2</div>
               <h3 class="mb-2 text-xl text-white font-bold">Treasury AutoSwap</h3>
-              <p class="font-medium text-coolGray-400">Once you've staked, the treasury automatically swaps the cash
+              <p class="font-medium text-coolGray-300">Once you've staked, the treasury automatically swaps the cash
                 value of your deposit to the target strategy tokens. </p>
             </div>
             <div class="w-full md:w-1/2 px-4 mb-8">
@@ -423,7 +437,7 @@
                 class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-indigo-500">
                 3</div>
               <h3 class="mb-2 text-xl text-white font-bold">Waypoints Execute Strategies</h3>
-              <p class="font-medium text-coolGray-400">Both Automated and Actively Managed Waypoints employ the
+              <p class="font-medium text-coolGray-300">Both Automated and Actively Managed Waypoints employ the
                 strategies you've chosen. </p>
             </div>
             <div class="w-full md:w-1/2 px-4">
@@ -431,7 +445,7 @@
                 class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-indigo-500">
                 4</div>
               <h3 class="mb-2 text-xl text-white font-bold">Claim Rewards Receive Airdrops</h3>
-              <p class="font-medium text-coolGray-400">Profits and rewards will be available to claim on your
+              <p class="font-medium text-coolGray-300">Profits and rewards will be available to claim on your
                 portfolio's homepage. </p>
             </div>
           </div>
@@ -440,29 +454,29 @@
     </div>
   </section>
 
-
   <!-- Token Launch  -->
+  
   <section class="py-24 bg-coolGray-900 overflow-hidden bg-cover"
     style="background-image: url('/images/darkbg1.png'); background-position: center;">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-4 mb-20 lg:mb-0 order-2">
           <div class="max-w-md mx-auto">
-            <h2 class="mb-8 text-4xl md:text-5xl font-heading font-bold text-white md:leading-15">Token Launch</h2>
+            <h2 class="mb-8 text-4xl md:text-5xl font-bold text-white md:leading-15">Stash Token Launch</h2>
             <ul class="mb-8">
               <li class="flex items-center mb-4">
                 <img class="mr-3" src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""><span
-                  class="text-lg md:text-xl font-heading text-coolGray-400">Check out the Discord for the latest Launch
+                  class="text-lg md:text-xl font-heading text-coolGray-300">Check out the Discord for the latest Launch
                   activities!</span>
               </li>
               <li class="flex items-center mb-4">
                 <img class="mr-3" src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""><span
-                  class="text-lg md:text-xl font-heading text-coolGray-400">Whitelist Opportunities Available to Early
+                  class="text-lg md:text-xl font-heading text-coolGray-300">Whitelist Opportunities Available to Early
                   Community Members</span>
               </li>
               <li class="flex items-center">
                 <img class="mr-3" src="flex-ui-assets/elements/cta/checkbox-green.svg" alt=""><span
-                  class="text-lg md:text-xl font-heading text-coolGray-400">1st Raise Soft Limit: $500k</span>
+                  class="text-lg md:text-xl font-heading text-coolGray-300">1st Raise Soft Limit: $500k</span>
               </li>
             </ul>
             <div class="flex flex-wrap items-center">
@@ -473,9 +487,9 @@
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/2 px-4 order-1 ">
+        <div class="relative max-w-max mx-auto order-1 ">
           <div class="inline-block">
-            <video class="rounded-md" width="520" height="540" autoplay loop muted>
+            <video class="rounded-md " width="620" height="640" autoplay loop muted>
               <source src="/images/coinspin.MOV" type="" />
               Your browser does not support the video tag.
             </video>
@@ -487,12 +501,12 @@
 
   <!-- Team  -->
   <section class="py-24 bg-coolGray-900"
-    style="background-image: url('/images/lgbg.png'); background-position: center;">
+    style="background-image: url('/images/lgbg.png'); background-position: center;" id="Team">
     <div class="container px-4 mx-auto">
       <span
         class="inline-block py-px px-2 mb-4 text-xs leading-5 font-medium uppercase rounded-9xl bg-indigo-500 text-white">Team</span>
       <h3 class="mb-4 text-3xl md:text-5xl leading-tight text-white font-bold tracking-tighter">Our Team</h3>
-      <p class="mb-14 md:mb-24 text-lg md:text-xl text-coolGray-400 font-medium">The Wayfinder Team has come together
+      <p class="mb-14 md:mb-24 text-lg md:text-xl text-coolGray-300 font-medium">The Wayfinder Team has come together
         through shared communities and protocols. We recognized the errors and mistakes that many protocols faced and
         decided to create something new and innovative to Defi. </p>
       <div class="flex flex-wrap -mx-4">
@@ -556,7 +570,7 @@
           <div class="max-w-xs mx-auto md:ml-0">
             <img class="w-24 h-24 mb-6 rounded-full" src="flex-ui-assets/images/teams/avatar3.png" alt="">
             <h3 class="cmb-1 text-lg font-semibold text-white">Anotherecho</h3>
-            <span class="inline-block mb-4 text-lg font-medium text-green-500">Co-Founder, Operations</span>
+            <span class="inline-block mb-4 text-lg font-medium text-green-500">Co-Founder, Business Operations</span>
             <p class="mb-4 text-coolGray-400 font-medium">Add Bio Here.</p>
             <div class="flex items-center">
               <a class="inline-block mr-5 text-coolGray-700 hover:text-coolGray-600" href="#">
