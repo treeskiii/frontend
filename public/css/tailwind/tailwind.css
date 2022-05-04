@@ -561,6 +561,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -595,12 +600,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mb-12 {
   margin-bottom: 3rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-20 {
@@ -655,12 +664,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-14 {
   height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-12 {
@@ -685,6 +694,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4\/6 {
   width: 66.666667%;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-16 {
@@ -713,12 +726,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 20rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
+.max-w-sm {
+  max-width: 24rem;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.max-w-md {
+  max-width: 28rem;
 }
 
 .flex-row {
@@ -826,6 +839,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-indigo-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(79 61 191 / var(--tw-bg-opacity));
+}
+
+.bg-coolGray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 195 207 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -960,12 +978,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
 }
 
 .text-2xl {
@@ -1051,11 +1069,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(238 240 243 / var(--tw-text-opacity));
 }
 
-.text-coolGray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(42 51 66 / var(--tw-text-opacity));
-}
-
 .text-coolGray-300 {
   --tw-text-opacity: 1;
   color: rgb(187 195 207 / var(--tw-text-opacity));
@@ -1071,14 +1084,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(106 223 149 / var(--tw-text-opacity));
 }
 
-.text-indigo-400 {
+.text-coolGray-900 {
   --tw-text-opacity: 1;
-  color: rgb(150 133 255 / var(--tw-text-opacity));
-}
-
-.text-coolGray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(85 105 135 / var(--tw-text-opacity));
+  color: rgb(42 51 66 / var(--tw-text-opacity));
 }
 
 .text-green-500 {
@@ -1427,16 +1435,16 @@ html {
     margin-bottom: 0px;
   }
 
+  .lg\:w-60 {
+    width: 15rem;
+  }
+
   .lg\:w-1\/5 {
     width: 20%;
   }
 
   .lg\:w-1\/3 {
     width: 33.333333%;
-  }
-
-  .lg\:w-1\/2 {
-    width: 50%;
   }
 
   .lg\:items-center {
@@ -1490,7 +1498,5 @@ html {
     justify-content: center;
   }
 }
-
-
 
 
