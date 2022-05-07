@@ -1,0 +1,3 @@
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wh4gk3bb.json" background="transparent" speed="1"
+    style="width: 600; height: 600;" loop autoplay></lottie-player>
