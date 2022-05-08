@@ -155,3 +155,7 @@ body {
 .toggle:checked + .title::before {
   transform: rotate(90deg) !important;
 }
+
+.minecraft {
+  font-family: Minecraft
+}
