@@ -121,7 +121,7 @@ html {
 .wfbg{
   background-color: #000;
   width: 100%;
-background-image: url('/images/wayfinderwide.jpg');
+background-image: url('/assets/images/wayfinderwide.jpg');
 background-size: cover;
 height: 75vh;
 padding:0;
