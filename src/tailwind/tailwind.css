@@ -174,3 +174,437 @@ body {
 .minecraft {
   font-family: Minecraft
 }
+
+
+
+/* tokenomics  */
+
+
+.flex--x-center { 
+  justify-content: center;
+} 
+
+.flex--y-center { 
+  align-items: center;
+} 
+
+.sectionDeFi__content { 
+  margin: 64px 0; 
+  width: 100%;
+} 
+
+
+
+.z--1 { 
+  z-index: 1;
+} 
+
+.sectionDeFi__wrap { 
+  width: 100%; 
+  max-width: -webkit-max-content; 
+  max-width: -moz-max-content; 
+  max-width: max-content;
+} 
+
+.pos--rel { 
+  position: relative;
+} 
+
+.sectionDeFi { 
+  flex-direction: column; 
+  padding: 32px 16px 200px; 
+  width: 100%;  
+  overflow: hidden;
+} 
+
+
+
+
+
+.tokenomics { 
+  flex-direction: column; 
+  padding: 32px 24px; 
+  width: 100%; 
+  max-width: -webkit-max-content; 
+  max-width: -moz-max-content; 
+  max-width: max-content; 
+  border-radius: 40px; 
+} 
+
+.tokenomics__stats { 
+  width:  100%;
+  margin: 0 0 16px;
+} 
+
+.tokenomics__chart { 
+  width: 100%;
+} 
+
+
+
+.fs--24 { 
+  font-size: 1.5rem;
+} 
+
+
+
+.fw--700 { 
+  font-weight: 700;
+} 
+
+.tokenomics__title { 
+  margin: 0 80px 64px 0; 
+  height: -webkit-min-content; 
+  height: -moz-min-content; 
+  height: min-content;
+} 
+
+.tokenomics__title:after { 
+  content: ""; 
+  position: absolute; 
+  top: calc(100% + 4px); 
+  left: 0; 
+  width: 100%; 
+  height: 2px; 
+  background: #009f55;
+} 
+
+.flex--r-nowrap { 
+  flex-wrap: nowrap;
+} 
+
+.fs--18 { 
+  font-size: 1.125rem;
+} 
+
+.tokenomics__chart-visual { 
+  margin: 0 16px 24px 0;
+} 
+
+.tokenomics__chart-key { 
+  flex-direction: column;
+} 
+
+.tokenomics__stat-name { 
+  flex-direction:  column;
+  margin: 0 16px 0 0;
+} 
+
+.tokenomics__stat-value { 
+  flex-direction: column;
+} 
+
+
+
+.tokenomics__chart-image { 
+  width: 100%; 
+  max-width: 1000px;
+} 
+
+.pos--abs { 
+  position: absolute;
+} 
+
+.fs--20 { 
+  font-size: 1.25rem;
+} 
+
+.tokenomics__chart-title { 
+  bottom: 50%; 
+  right: 50%; 
+  transform: translate(50%,50%); 
+  width: -webkit-min-content; 
+  width: -moz-min-content; 
+  width: min-content; 
+  text-align: center;
+} 
+
+.tokenomics__chart-label { 
+  flex-direction: column; 
+  margin: 0 0 16px 32px; 
+  width: 100%;
+} 
+
+.tokenomics__chart-label:before { 
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: -24px; 
+  width: 16px; 
+  height: 16px; 
+  border-radius: 50%;
+} 
+
+
+.tokenomics__stat-name > *  { 
+  margin: 0 0 16px;
+} 
+
+.tokenomics__stat-value > *  { 
+  margin: 0 0 16px;
+} 
+
+.fs--40 { 
+  font-size: 2.5rem;
+} 
+
+.fs--10 { 
+  font-size: .625rem;
+} 
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+* { 
+    border:  0 solid #e5e7eb; 
+    box-sizing:  border-box;
+    --tw-shadow: 0 0 transparent; 
+} 
+
+.j { 
+    position: relative;
+} 
+
+.bb { 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.od { 
+    width: 100%;
+} 
+
+.he { 
+    max-width: 80rem;
+} 
+
+.lf { 
+    align-items: center;
+} 
+
+.zj { 
+    padding-bottom: 3rem; 
+    padding-top: 3rem;
+} 
+
+.ak { 
+    padding-left: 1.25rem; 
+    padding-right: 1.25rem;
+} 
+
+@media (min-width: 768px){ 
+  .st { 
+    padding-left: 3rem; 
+    padding-right: 3rem;
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .hw { 
+    padding-left: 4rem; 
+    padding-right: 4rem;
+  } 
+}     
+
+@media (min-width: 1024px){ 
+  .jw { 
+    padding-bottom: 8rem; 
+    padding-top: 8rem;
+  } 
+}     
+
+body { 
+    line-height: inherit; 
+    margin: 0;
+} 
+
+.ii { 
+    --tw-bg-opacity: 1; 
+    background-color: rgba(30,32,40,var(--tw-bg-opacity));
+} 
+
+html { 
+    -webkit-text-size-adjust: 100%; 
+    font-family: Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; 
+    line-height: 1.5; 
+    -moz-tab-size: 4; 
+    -o-tab-size: 4; 
+    tab-size: 4;
+} 
+
+.pk { 
+    padding-bottom: 1.5rem; 
+    padding-top: 1.5rem;
+} 
+
+@media (min-width: 1024px){ 
+  .ow { 
+    padding-bottom: 3rem; 
+    padding-top: 3rem;
+  } 
+}     
+
+*,:after,:before { 
+    border: 0 solid #e5e7eb; 
+    box-sizing: border-box;
+} 
+
+*,:after,:before { 
+    --tw-shadow: 0 0 transparent; 
+} 
+
+.le { 
+    max-width: 36rem;
+} 
+
+@media (min-width: 1024px){ 
+  .dv { 
+    max-width: 80rem;
+  } 
+}     
+
+h2 { 
+    font-size:  inherit; 
+    font-weight:  inherit;
+    margin: 0;
+} 
+
+.e { 
+    clip: rect(0,0,0,0); 
+    border-width: 0; 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    white-space: nowrap; 
+    width: 1px;
+} 
+
+dl { 
+    margin: 0;
+} 
+
+.uc { 
+    display: grid;
+} 
+
+.ef { 
+    grid-template-columns: repeat(2,minmax(0,1fr));
+} 
+
+.vf { 
+    gap: 1rem;
+} 
+
+@media (min-width: 1024px){ 
+  .mv { 
+    grid-template-columns: repeat(3,minmax(0,1fr));
+  } 
+}     
+
+a { 
+    color: inherit; 
+    text-decoration: inherit;
+} 
+
+.zc { 
+    height: 100%;
+} 
+
+.dh { 
+    border-radius: 1rem;
+} 
+
+.ji { 
+    --tw-bg-opacity: 1; 
+    background-color: rgba(37,39,49,var(--tw-bg-opacity));
+} 
+
+.tj { 
+    padding: 1.5rem;
+} 
+
+.wn { 
+    --tw-shadow:  0px 13px 40px rgba(0,0,0,.3),0px 4px 4px rgba(0,0,0,.2); 
+    box-shadow: 0 0 transparent,0 0 transparent,var(--tw-shadow); 
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);
+} 
+
+@media (min-width: 1024px){ 
+  .fw { 
+    padding: 3rem;
+  } 
+}     
+
+dd { 
+    margin: 0;
+} 
+
+.pb { 
+    margin-top: .5rem;
+} 
+
+.em { 
+    font-size: .75rem;
+} 
+
+.cn { 
+    --tw-text-opacity: 1; 
+    color: rgba(160,161,178,var(--tw-text-opacity));
+} 
+
+@media (min-width: 1024px){ 
+  .ex { 
+    font-size: 1rem;
+  } 
+}     
+
+.flex { 
+    display: flex;
+} 
+
+.hn { 
+    --tw-text-opacity: 1; 
+    color: rgba(124,116,218,var(--tw-text-opacity));
+} 
+
+p { 
+    margin: 0;
+} 
+
+.hm { 
+    font-size: 1.25rem;
+} 
+
+.bn { 
+    --tw-text-opacity: 1; 
+    color: rgba(255,255,255,var(--tw-text-opacity));
+} 
+
+@media (min-width: 1024px){ 
+  .cx { 
+    font-size: 1.5rem;
+  } 
+}     
+
+.dg > :not([hidden]) ~ :not([hidden]) { 
+    --tw-space-y-reverse: 0; 
+    margin-bottom: calc(2rem*var(--tw-space-y-reverse)); 
+    margin-top: calc(2rem*(1 - var(--tw-space-y-reverse)));
+} 
+
+svg { 
+    display: block; 
+    vertical-align: middle;
+} 
+
+.yc { 
+    height: 1.5rem;
+} 
+
+.sd { 
+    width: 1.5rem;
+} 
+
+
