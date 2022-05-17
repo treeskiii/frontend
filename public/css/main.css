@@ -7,3 +7,9 @@
   font-family: Minecraft
 }
 
+@font-face {
+  font-family: 'camingocoderegular';
+  src: url('fonts/minecraft_font.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal; 
+}

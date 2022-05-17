@@ -9,7 +9,7 @@
 
 
 html { 
-    background: url(../assets/images/aurora.gif) no-repeat center center fixed; 
+     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -682,18 +682,14 @@ svg {
 } 
 
 .title { 
-  background-image: radial-gradient(#8d54a0,#6737b4); 
+  background-image: radial-gradient(#9858cc,#5225b9); 
   -webkit-background-clip: text; 
   background-clip: text; 
   color: transparent; 
   text-align: center;
 } 
 
-@media (min-width: 600px){ 
-.title { 
-  font-size: 65px;
-} 
-}     
+ 
 
 .sectionDeFi__content { 
   margin: 64px 0; 
@@ -1188,5 +1184,4 @@ small {
 .css-1muw5zr { 
   opacity: 0.3;
 } 
-
 
