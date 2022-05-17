@@ -2572,6 +2572,12 @@ small {
   opacity: 0.3;
 }
 
+@font-face {
+  font-family: Minecraft;
+
+  src: url("/fonts/minecraft_font.ttf");
+}
+
 .hover\:border-indigo-200:hover {
   --tw-border-opacity: 1;
   border-color: rgb(218 212 255 / var(--tw-border-opacity));
@@ -2799,6 +2805,10 @@ small {
     width: 33.333333%;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .md\:max-w-4xl {
     max-width: 56rem;
   }
@@ -2953,5 +2963,4 @@ small {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
-} 
-
+}

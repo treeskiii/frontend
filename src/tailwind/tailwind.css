@@ -1185,3 +1185,7 @@ small {
   opacity: 0.3;
 } 
 
+@font-face {
+  font-family: Minecraft;
+  src: url("/fonts/minecraft_font.ttf");
+}
