@@ -1187,5 +1187,12 @@ small {
 
 @font-face {
   font-family: Minecraft;
-  src: url("/fonts/minecraft_font.ttf");
+  src: url("/fonts/minecraftory.ttf");
+
+}
+
+@font-face {
+  font-family: spacefont;
+  src: url("/fonts/space.otf");
+
 }
