@@ -328,8 +328,6 @@ body {
 } 
 
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); 
-@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto"); 
 * { 
     border:  0 solid #e5e7eb; 
     box-sizing:  border-box;
@@ -391,6 +389,7 @@ body {
 body { 
     line-height: inherit; 
     margin: 0;
+    font-family: "orbitron";
 } 
 
 .ii { 
@@ -1182,11 +1181,7 @@ small {
   opacity: 0.3;
 } 
 
-@font-face {
-  font-family: minecraft;
-  src: url("../../public/fonts/minecraft.ttf");
 
-}
 
 .flip-horizontal {
   --transform-scale-x: -1;
@@ -1197,3 +1192,13 @@ small {
 .flip-vertical {
   --transform-scale-y: -1;
 }
+
+
+.orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
