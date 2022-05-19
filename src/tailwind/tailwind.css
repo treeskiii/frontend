@@ -1183,8 +1183,8 @@ small {
 } 
 
 @font-face {
-  font-family: Minecraft;
-  src: url("/fonts/minecraft.ttf");
+  font-family: minecraft;
+  src: url("../../public/fonts/minecraft.ttf");
 
 }
 

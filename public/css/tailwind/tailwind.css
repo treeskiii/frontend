@@ -2598,9 +2598,9 @@ small {
 }
 
 @font-face {
-  font-family: Minecraft;
+  font-family: minecraft;
 
-  src: url("/fonts/minecraft.ttf");
+  src: url("../../fonts/minecraft.ttf");
 }
 
 .flip-horizontal {
