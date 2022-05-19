@@ -1567,10 +1567,6 @@ body {
   max-height: 0;
 }
 
-.minecraft {
-  font-family: Minecraft
-}
-
 /* tokenomics  */
 
 .flex--x-center {
@@ -2561,13 +2557,7 @@ small {
 @font-face {
   font-family: Minecraft;
 
-  src: url("/fonts/minecraftory.ttf");
-}
-
-@font-face {
-  font-family: spacefont;
-
-  src: url("/fonts/space.otf");
+  src: url("/fonts/minecraft.ttf");
 }
 
 .hover\:border-indigo-200:hover {
@@ -2951,4 +2941,13 @@ small {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+}
+
+.flip-horizontal {
+  --transform-scale-x: -1;
+}
+
+/* Flip on the Y axis */
+.flip-vertical {
+  --transform-scale-y: -1;
 }

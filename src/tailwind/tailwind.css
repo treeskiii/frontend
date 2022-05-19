@@ -149,9 +149,6 @@ body {
 
 
 
-.minecraft {
-  font-family: Minecraft
-}
 
 
 
@@ -1187,12 +1184,16 @@ small {
 
 @font-face {
   font-family: Minecraft;
-  src: url("/fonts/minecraftory.ttf");
+  src: url("/fonts/minecraft.ttf");
 
 }
 
-@font-face {
-  font-family: spacefont;
-  src: url("/fonts/space.otf");
+.flip-horizontal {
+  --transform-scale-x: -1;
+}
 
+
+/* Flip on the Y axis */
+.flip-vertical {
+  --transform-scale-y: -1;
 }
