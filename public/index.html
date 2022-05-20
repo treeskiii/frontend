@@ -110,9 +110,13 @@
                 <div class="w-full md:w-auto py-1 md:py-rs0 md:mr-4"><a
                     class="orbitron inline-block py-5 px-7 w-full text-base  leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm bg-indigo-500 hover:bg-indigo-800"
                     href="#">Enter App (Coming Soon)</a></div>
-                <div class="w-full md:w-auto py-1 "><a download
-                    class="orbitron inline-block py-5 px-7 w-full text-base  leading-4 text-coolGray-100 bg-coolGray-700 hover:bg-coolGray-800 font-medium text-center focus:ring-2 focus:ring-coolGray-700 focus:ring-opacity-50 rounded-md shadow-sm"
-                    href="/whitepaper/whitepaper-5-17.pdf">Whitepaper</a></div>
+                <div class="w-full md:w-auto py-1 md:py-rs0 md:mr-4">
+                  <button
+                    class="flex orbitron py-5 px-7 w-full text-base  leading-4 text-coolGray-100 bg-coolGray-700 hover:bg-coolGray-800 font-medium text-center focus:ring-2 focus:ring-coolGray-700 focus:ring-opacity-50 rounded-md shadow-sm"
+                    type="button" data-modal-toggle="defaultModal">
+                    Whitepaper
+                  </button>
+                </div>
               </div>
             </div>
             <div class="w-full md:w-1/2 px-4 order-1">
@@ -124,6 +128,34 @@
         </div>
       </div>
     </section>
+
+    <!-- Whitepaper Modal  -->
+    <div id="defaultModal" tabindex="-1" aria-hidden="true"
+      class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
+      <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
+        <!-- Modal content -->
+        <div class="relative bg-gray-700 rounded-lg shadow">
+          <!-- Modal header -->
+          <div class="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
+            <button type="button"
+              class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+              data-modal-toggle="defaultModal">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+          <!-- Modal body -->
+          <iframe src="/whitepaper/whitepaper-5-19.pdf" height="800" width="640"></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+
 
 
 
@@ -184,12 +216,10 @@
                                       Distributed
                                     </h3>
                                   </div>
-                                  <div class="px-2 pb-14 text-left mt-2">
-                                    <p class="text-md text-gray-300">Decentralized DeFi isn't about just "another fork"
-                                      of
-                                      someone's
-                                      else's work. It is building things designed to be built off of to create even more
-                                      opportunities for everyone.</p>
+                                  <div class="px-2 pb-14 text-center mt-2">
+                                    <p class="text-md text-gray-300">DeFi isn't just about creating a fork of someone
+                                      else's work. It is about building platforms to create equal opportunities for
+                                      everyone.</p>
                                   </div>
                                 </div>
                               </div>
@@ -209,13 +239,10 @@
                                       Airdrops
                                     </h3>
                                   </div>
-                                  <div class=" px-2 pb-14 text-left">
-                                    <p class="text-md text-gray-300 mt-2">When a Waypoint profits, users claim their
-                                      reward based on
-                                      their share of the total pool when combined with other investors, minus fees.
-                                      Waypoint
-                                      owners
-                                      can even reallocate their fees as airdrops to their users.</p>
+                                  <div class=" px-2 pb-14 text-center">
+                                    <p class="text-md text-gray-300 mt-2">When a Waypoint profits, users can claim their
+                                      reward based on their share of the total pool, minus fees. Waypoint owners can
+                                      even reallocate their fees as airdrops to the users.</p>
                                   </div>
                                 </div>
                               </div>
@@ -237,8 +264,8 @@
                                   </div>
                                   <div class=" px-2 pb-14 text-center">
                                     <p class="text-md text-gray-300 mt-2 ">Wayfinder tracks a user's investments via a
-                                      "portfolio" NFT
-                                      This allows your investment to also be an asset to use as collateral for a loan.
+                                      "portfolio" NFT.
+                                      This opens up options for your staked investment to now be used as collateral.
                                     </p>
                                   </div>
                                 </div>
@@ -391,12 +418,10 @@
             <h2
               class="orbitron font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-violet-400 to-blue-900 text-3xl">
               What is Wayfinder?</h2>
-            <p class="  text-darkCoolGray-300 pt-2">Wayfinder is project dedicated to creating a
-              friendly
-              ecosystem for cryptocurrency investment and unlocking the cross-project potential that
-              exists by developing technologies that enable building both simple and complex
-              investment strategies usable by newbies and seasoned pros alike in a consistent
-              standardized way.</p>
+            <p class="  text-darkCoolGray-300 pt-2">Wayfinder is a project dedicated to creating a friendly ecosystem
+              for cryptocurrency investment and unlocking cross chain potential. It accomplishes this by developing
+              technologies that enable building both simple and complex investment strategies useable by both newbies
+              and professionals alike, in a consistent and standardized way</p>
           </div>
         </div>
         <div class="p-4 sm:w-1/2 w-full">
@@ -639,11 +664,13 @@
         <!-- Waypoint Steps  -->
 
         <div class="container flex justify-center pt-20">
-          <div class="flex text-center lg:w-4/5 justify-center">
+          <div class="flex-col text-center lg:w-2/3 justify-center">
             <div class="flex justify-center mt-10 text-center">
               <h1 class="text-3xl text-white font-bold text-center orbitron">Anyone can Create Their Own <span
-                  class="text-yellow-400  ">Waypoint</span> </h1>
-              <h1 class="text-xl text-indigo-400 font-bold text-center mb-10 flex">Create a Strategy Easily!
+                  class="text-yellow-400">Waypoint</span> </h1>
+            </div>
+            <div class="flex justify-center">
+              <h1 class="flex text-xl text-indigo-400 font-bold text-center mb-10">Create a Strategy Easily!
               </h1>
             </div>
             <div class="container flex">
@@ -721,7 +748,7 @@
         <div class="flex-col w-full  p-6 rounded-xl justify-center">
           <div class="flex justify-center ">
             <h1
-              class="font-extrabold flex text-5xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-violet-400 to-blue-900 orbitron p-4 md:py-2 m-4 rounded-xl bg-opacity-70 md:mb-6 bg-darkCoolGray-700 border border-indigo-400 px-6">
+              class="font-extrabold text-indigo-400 text-4xl flex md:text-5xl md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-indigo-600 md:via-violet-400 md:to-blue-900 orbitron md:p-4 md:py-2 md:m-4 rounded-xl bg-opacity-70 md:mb-6 bg-darkCoolGray-700 border border-indigo-400 px-6">
               Allocations</h1>
           </div>
           <div class="flex justify-center">
@@ -897,15 +924,15 @@
                     Phase 1</h2>
                   <div class="flex ml-6">
                     <h2 class="text-xl md:text-2xl text-indigo-200">Community and Stealth Launch</h2>
-                    <p class="leading-relaxed text-gray-400 ml-6">Phase 1 of Wayfinder Finance is to raise $5mm for the
-                      purposes of executing on the technical details of our vision, launching an minimum-viable-product
-                      version of our platform to enable painless on-chain income generation to the decentralized finance
-                      community. </p>
-                    <p class="leading-relaxed text-gray-400 ml-6 mt-4">
-                      This includes: <br>
-                      <br> - Staff / Development Costs
-                      <br> - Project management
-                      <br> - Legal expenses
+                    <p class="leading-relaxed text-gray-400 ml-6">Phase 1 of our launch is designed with the intent to
+                      develop a passionate and informed community, raise funds for development and marketing, and
+                      deliver a functional Alpha d'App. </p>
+                    <p class="leading-relaxed text-gray-200 ml-6">
+                      <br> ✔️ Website Launch
+                      <br> 🧰 Technical Docs
+                      <br> 💸 Initial Raise
+                      <br> 📝 Presale
+                      <br> 📱 d'App Development
                     </p>
                   </div>
                 </div>
@@ -927,18 +954,18 @@
                     class="font-bold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-violet-400 to-blue-900 orbitron">
                     Phase 2</h2>
                   <h2 class="text-2xl text-indigo-200">Implementation</h2>
-                  <div class="flex ml-6">
-
-                    <p class="leading-relaxed text-gray-400 ml-6 text-left">Our team has already begun the process of
-                      designing and building our cutting edge and innovative decentralized
-                      investment platform, and in Phase 2 that effort will be kicked into overdrive. During this time we
-                      will launch our
-                      test contracts, perform a full-scale security audit, and begin both on-chain and off-chain
-                      internal testing. Our current
-                      goal is to have a public beta of our platform ready for use in the Fall of 2022, with public
-                      release pending the
-                      full security audit by January, 2023. All Dates are subject to change and just ballpark figures as
-                      of now. </p>
+                  <div class="flex ml-6 text-left">
+                    <p class="leading-relaxed text-gray-400 ml-6">The Goal of Phase 2 is to deliver a fully functional
+                      beta version of our Waypoint System. Contracts will be audited upon completion. </p>
+                    <p class="leading-relaxed text-gray-200 ml-6 text-left">
+                      <br> - 🚀 Launch Beta Version of d'App
+                      <br> - 💵 Launch Beta Profit Share
+                    <div class="flex align-middle">
+                      <img class="flex w-auto h-32 items-center justify-center" src="/images/logos/certiklogo.png"
+                        alt="">
+                      <p class="leading-relaxed text-gray-200 flex -mt-6 ml-4"> 🔒 Certik Audits</p>
+                    </div>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -960,19 +987,15 @@
                     Phase 3</h2>
                   <div class="flex ml-6">
                     <h2 class="text-2xl text-indigo-200">Continued Development</h2>
-                    <p class="leading-relaxed text-gray-400 ml-6">Wayfinder's unique and ground-breaking technology
-                      isn't just another decentralized exchange, OHM-fork, or lending platform
-                      but rather a full suite of decentralized tools that will enable any investor to easily understand
-                      the details and generate
-                      passive returns on their investment without the normally associated risks in this space.
-                      <br>
-                      By supporting Wayfinder Finance, you are supporting the development of an entirely new layer of
-                      decentralized finance, one
-                      that will serve as the bedrock for countless innovations for years to come. We expect in Phase 3
-                      to transition our
-                      initial development efforts into an ongoing value-add professional services that will dramatically
-                      increase the value of our offering even
-                      further.
+                    <p class="leading-relaxed text-gray-400 ml-6">Phase 3 is where the real magic of Wayfinder Finance
+                      Begins. In this Phase , we launch our Validator Node Staking Feature which will offer our users
+                      another source of truly sustainable income. </p>
+                    <p class="leading-relaxed text-gray-200 ml-6">
+                      <br> 🔗 Validator Node Staking Expansion
+                      <br> 💧 Multi-Chain Liquid Staking
+                      <br> ☂️ Insurance Options
+                      <br> 🤝 Strategic Partnerships
+                      <br> ➕ App Expansion
                     </p>
                   </div>
                 </div>
@@ -997,7 +1020,7 @@
         Our Team</h3>
       <p class="mb-14 md:mb-24 text-lg md:text-xl text-coolGray-300 font-medium">The Wayfinder Team has come together
         through shared communities and protocols. We recognized the errors and mistakes that many protocols faced and
-        decided to create something new and innovative to Defi. </p>
+        decided to create something new and innovative to DeFi. </p>
       <div class="flex flex-wrap -mx-4 ">
         <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mb-10 ">
           <div
