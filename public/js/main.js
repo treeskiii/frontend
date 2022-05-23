@@ -38,3 +38,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+
+
+
+let player = document.querySelector("lottie-player");
+let play = document.querySelector("#start");
+let stop = document.querySelector("#stop");
+
+play.onclick = function () {
+    player.play();
+};
+
+stop.onclick = function () {
+    player.stop();
+};
